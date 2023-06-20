@@ -7,3 +7,8 @@ export function criarPortas(qtde: number, selecionada: number): PortaModel[] {
         return new PortaModel(numero, temPresente)
     })
 }
+
+export function atualizarPortas(portas: PortaModel[], portaModificada: PortaModel): PortaModel[] {
+    //TODO implementar método
+    return null
+}
